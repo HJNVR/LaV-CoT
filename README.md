@@ -13,15 +13,20 @@ Optimization for Real-World Multilingual VQA
 - [Prompt Design](#prompt)
 - [Data](#data)
 - [Training Methods](#training-methods)
+- [Multi-aspect Rewards](#Language-aware-Multi-aspect-Rewards)
 - [Citation](#citation)
 
 # Prompt
 Please check `./prompts` for both generator and evaluator prompts.
 
 # Data
-We design an automatic data curation method that produces
-scalable, high-quality multilingual CoT annotations through
-iterative generation, correction, and refinement. All images are resized to 896 * 896.
+We design an automatic data curation method that produces scalable, high-quality multilingual CoT annotations through iterative generation, correction, and refinement. All images are resized to 896 * 896.
+
+# Language-aware Multi-aspect Rewards
+1. Language Reward
+2. Count Reward
+3. Answer Reward
+4. Format Reward
 
 # Training Methods
 We adopt TRL offical training scripts (https://github.com/huggingface/trl) to do both SFT and GRPO training.
