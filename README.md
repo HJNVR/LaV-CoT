@@ -10,21 +10,21 @@ Optimization for Real-World Multilingual VQA
 
 # Table of Contents
 
-- [Main](#main)
+- [Prompt Design](#prompt)
 - [Data](#data)
 - [Training Methods](#training-methods)
 - [Citation](#citation)
-# Main
-It was trained on `Model_Arts`\
-Please check `main/run_train_text_image_lora_csag.py`\
-attention_guide_type == "sag" or "cag"
+
+# Prompt
+Please check `./prompts` for both generator and evaluator prompts.
 
 # Data
-we crop out the half-body human images with sizes 512 x 512, since we are more interested in human details such as faces and eyes.
+We design an automatic data curation method that produces
+scalable, high-quality multilingual CoT annotations through
+iterative generation, correction, and refinement. All images are resized to 896 * 896.
 
 # Training Methods
-
-![](./source/training_method.png)
+We adopt TRL offical training scripts (https://github.com/huggingface/trl) to do both SFT and GRPO training.
 
 # Citation  
 
