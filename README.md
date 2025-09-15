@@ -34,8 +34,16 @@ We adopt TRL offical training scripts (https://github.com/huggingface/trl) to do
 # Citation  
 
 ```bibtex
-WIP
+@misc{huang2025lavcotlanguageawarevisualcot,
+      title={LaV-CoT: Language-Aware Visual CoT with Multi-Aspect Reward Optimization for Real-World Multilingual VQA}, 
+      author={Jing Huang and Zhiya Tan and Shutao Gong and Fanwei Zeng and Jianshu Li},
+      year={2025},
+      eprint={2509.10026},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.10026}, 
+}
 ```
 
 
-For more work, please refer to [Academic Work](docs/ACADEMIC_WORK.md).
+For more work, please refer to [](docs/ACADEMIC_WORK.md).
