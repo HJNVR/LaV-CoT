@@ -1,6 +1,6 @@
 <h1 align="center">
 	LaV-CoT: Language-Aware Visual CoT with Multi-Aspect Reward
-Optimization for Real-World Multilingual VQA
+Optimization for Multilingual Text-Centric VQA
 </h1>
 
 <div align="center">
