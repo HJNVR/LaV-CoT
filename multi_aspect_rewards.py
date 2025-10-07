@@ -3,18 +3,14 @@ import re
 import json
 
 # format reward
-def format_reward(completions, scale=0.25, **kwargs):
+def format_reward(completions, scale=0.25, num_tag_pairs=2, **kwargs):
     rewards = []
     for c in completions:
         reward = 0.0
-        if '<think>' in c:
-            reward += scale / 4
-        if '</think>' in c:
-            reward += scale / 4
-        if '<answer>' in c:
-            reward += scale / 4 
-        if '</answer>' in c:
-            reward += scale / 4
+         if '<think>' in c and '</think>' in c:
+            reward += scale * 1 / num_tag_pairs
+        if '<answer>' in c and '</answer>' in c:
+            reward += scale * 1 / num_tag_pairs
         rewards.append(reward)
     print("Format rewards: ", rewards)
     return rewards
