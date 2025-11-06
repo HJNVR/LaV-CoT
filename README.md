@@ -36,7 +36,7 @@ We adopt TRL offical training scripts (https://github.com/huggingface/trl) to do
 ```bibtex
 @misc{huang2025lavcotlanguageawarevisualcot,
       title={LaV-CoT: Language-Aware Visual CoT with Multi-Aspect Reward Optimization for Real-World Multilingual VQA}, 
-      author={Jing Huang and Zhiya Tan and Shutao Gong and Fanwei Zeng and Jianshu Li},
+      author={Jing Huang and Zhiya Tan and Shutao Gong and Fanwei Zeng and Joey Tianyi Zhou and Changtao Miao and Huazhe Tan and Weibin Yao and Jianshu Li},
       year={2025},
       eprint={2509.10026},
       archivePrefix={arXiv},
