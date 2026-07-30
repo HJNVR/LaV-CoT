@@ -1,0 +1,8 @@
+accelerate>=1.2.0
+datasets>=3.2.0
+peft>=0.14.0
+Pillow>=10.0.0
+pytest>=8.0.0
+torch>=2.4.0
+transformers>=4.49.0
+trl>=0.16.0

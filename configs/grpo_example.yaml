@@ -1,0 +1,21 @@
+model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
+dataset_name_or_path: data/train.jsonl
+image_root: data/images
+output_dir: outputs/lavcot-grpo
+num_generations: 4
+beta: 0.04
+epsilon: 0.2
+reward_weights: [0.25, 0.25, 0.25, 0.25]
+max_prompt_length: 2048
+max_completion_length: 1024
+bf16: true
+gradient_checkpointing: true
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-6
+max_steps: 1000
+logging_steps: 1
+save_steps: 100
+save_total_limit: 2
+report_to: tensorboard
+remove_unused_columns: false

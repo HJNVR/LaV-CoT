@@ -10,10 +10,11 @@ Optimization for Multilingual Text-Centric VQA
 
 # Table of Contents
 
-- [Prompt Design](#prompt)
+- [Table of Contents](#table-of-contents)
+- [Prompt](#prompt)
 - [Data](#data)
+- [Language-aware Multi-aspect Rewards](#language-aware-multi-aspect-rewards)
 - [Training Methods](#training-methods)
-- [Multi-aspect Rewards](#Language-aware-Multi-aspect-Rewards)
 - [Citation](#citation)
 
 # Prompt
@@ -44,6 +45,3 @@ We adopt TRL offical training scripts (https://github.com/huggingface/trl) to do
       url={https://arxiv.org/abs/2509.10026}, 
 }
 ```
-
-
-For more work, please refer to [](docs/ACADEMIC_WORK.md).
